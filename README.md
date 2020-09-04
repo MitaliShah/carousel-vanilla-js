@@ -1,1 +1,1 @@
-# carousel-Vanilla-js
+# carousel-vanilla-js

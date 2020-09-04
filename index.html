@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/2b83ea6c11.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Carousel vanilla js</title>
+  </head>
+  <body>
+    <div id="carousel">
+      <div class="carousel-item" class="carousel-item-visible">
+        <figure>
+          <img src="./images/1.jpeg" alt="carousel image 1" />
+          <figcaption>
+            Photo by Irina Nature and Wildlife from Pexels
+          </figcaption>
+        </figure>
+      </div>
+      <div class="carousel-item">
+        <figure>
+          <img src="./images/2.jpeg" alt="carousel image 2" />
+          <figcaption>Photo by eberhard grossgasteiger from Pexels</figcaption>
+        </figure>
+      </div>
+      <div class="carousel-item">
+        <figure>
+          <img src="./images/3.jpeg" alt="carousel image 3" />
+          <figcaption>Photo by Brandon Montrone from Pexels</figcaption>
+        </figure>
+      </div>
+      <div id="carousel-actions">
+        <button aria-label="Previous slide" id="carousel-button-prev">
+          <i class="far fa-arrow-alt-circle-left"></i>
+        </button>
+        <button aria-label="Next slide" id="carousel-button-next">
+          <i class="far fa-arrow-alt-circle-right"></i>
+        </button>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
