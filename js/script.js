@@ -11,7 +11,12 @@ function moveToPrevSlide() {
 }
 
 function moveToNextSlide() {
-  console.log("moveToNextSlide");
+  if (slidePosition === totalSlides - 1) {
+    slidePosition = 0;
+  } else {
+    slidePosition++;
+  }
+  slides[slidePosition].classList.add("carousel-item-visible");
 }
 
 prevButton.addEventListener("click", moveToPrevSlide);
