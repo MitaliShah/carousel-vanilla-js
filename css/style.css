@@ -1,6 +1,14 @@
+body,
+html {
+  max-width: 40em;
+  margin: 0 auto;
+  max-height: 100vh;
+  background-color: lightblue;
+}
 #carousel {
   max-width: 600px;
   position: relative;
+  margin-top: 20vh;
 }
 
 #carousel .carousel-item,
